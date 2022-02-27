@@ -1,0 +1,30 @@
+button{
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.comment{
+    background-color: rgb(224, 104, 24);
+    padding: 12px;
+    margin: 12px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+#comment-details{
+    background-color: rgb(0, 187, 255);
+    padding: 6px;
+    margin: 6px;
+    text-align: center;
+    border-radius: 7px;
+    width: 50%;
+}
+
+/* media queries */
+@media only screen and (max-width:680px) {
+    #comment-details{
+        margin-left: 10px;
+        width: 90%;
+    }   
+};

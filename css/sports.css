@@ -1,0 +1,17 @@
+#details-parent{
+    padding: 6px;
+    margin: 6px;
+    width: 50%;
+}
+
+#search-err, #spinner{
+    display: none;
+}
+
+/* media queries */
+@media only screen and (max-width:680px) {
+    #details-parent{
+        margin-left: 10px;
+        width: 90%;
+    }   
+};
